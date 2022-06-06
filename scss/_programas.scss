@@ -1,0 +1,167 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// estilos header programas
+
+.header-prog{
+    background-image: url(../multimedia/img/programas.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #faf5f5;
+}
+
+.header-home-programas{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+
+    h1{
+        font-size: $tamañoH1;
+        color: #fffaf0;
+    }
+    h4{
+        font-size: 15px;
+        color: #fffaf0;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+// estilos main programas
+
+.main-programas {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../multimedia/img/programas.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #faf5f5;
+}
+.main-programas h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #8a2be2;
+    p{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+}
+.seccion-programa-ministerial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-teens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-kids{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.seccion-programa-personalizado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        margin: 20px 20px;
+    }
+}
+.pregunta1{
+    font-weight: bold;
+}
+.pregunta2{
+    font-weight: bold;
+}
+.pregunta3{
+    font-weight: bold;
+}
+.pregunta4{
+    font-weight: bold;
+}
+.pregunta5{
+    font-weight: bold;
+}
+.pregunta6{
+    font-weight: bold;
+}
+.pregunta7{
+    font-weight: bold;
+}
+.pregunta8{
+    font-weight: bold;
+}
+.pregunta9{
+    font-weight: bold;
+}
+.pregunta10{
+    font-weight: bold;
+}
+.pregunta11{
+    font-weight: bold;
+}
+.pregunta12{
+    font-weight: bold;
+}
+
+// ---------------------------------------------------------------------------
+
+@media screen and (min-width: 768px){
+    .header-home-programas{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+    }
+    .header-home-programas h1{
+        font-size: 40px;
+    }
+    .header-home-programas p{
+        text-align: center;
+        font-size: 20px;
+    }
+    /* main programas */ 
+    .main-programas p{
+        text-align: left;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    } 
+}
+@media screen and (min-width: 1024px){
+    .main-programas h3{
+        font-size: 30px;
+    }
+
+    .main-programas h1{
+        font-size: 45px;
+    }
+}
