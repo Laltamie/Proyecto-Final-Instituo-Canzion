@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-image: url(../multimedia/img/fondo5.jpg) !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,7 +42,7 @@ body {
     font-size: 15px; }
 
 .main-index {
-  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-image: url(../multimedia/img/fondo5.jpg) !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -92,7 +92,7 @@ body {
   width: -webkit-fill-available; }
 
 .sedesHome-2 {
-  background-image: url(../multimedia/img/header_index.jpg) !important;
+  background-image: url(../multimedia/img/fondo5.jpg) !important;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -129,17 +129,17 @@ body {
     background-color: #faf5f5;
     min-height: 600px; }
   .header-home h1 {
-    font-size: 30px; }
+    font-size: 50px; }
   .header-home p {
     font-size: 28px; }
   .header-home h1 img {
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    overflow: hidden;
     animation-duration: 1s;
     animation-delay: 1s; } }
 
-.container img:hover {
-  filter: blur(5px); }
+.container:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1); }
 
 .titulo-h, .sedesHome-2 h4 {
   color: #070707; }
