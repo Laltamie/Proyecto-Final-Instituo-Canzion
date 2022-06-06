@@ -1,0 +1,85 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// estilos header historia
+.header-nosotros{
+    display: flex;
+    justify-content: center;
+
+    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.grid-hisotira{
+    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+.header-nosotros h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: $tamañoH1;
+    color: #f0f8ff;
+}
+// estilos main historia
+
+.tabla-historia{
+    padding: 1px 1px;
+    min-height: .01%;
+    overflow-x: auto;
+    text-align: center;
+    color: #f0f8ff;
+
+    tbody{
+        min-height: .01%;
+        overflow-y: auto;
+    }
+    p{
+        font-size: 10px;
+        color: #f0f8ff;
+    }
+}
+
+table{
+    border: none;
+    width: 100%;
+    td{
+        color: #f0f8ff;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 0 20px;
+        text-align: justify;
+        vertical-align: top;
+        width: 50%;
+        border: 1px solid black;
+    }
+}
+
+// ----------------------------------------------------------------------
+
+@media screen and (min-width: 768px){
+    .header-nosotros h1{
+        font-size: $tamañoH1;
+    }
+    /* estilos main historia */
+        .tabla-historia tbody p{
+        font-size: 15px;;
+    }
+        .tabla-historia th{
+        font-size: 20px;
+    }
+}
