@@ -136,8 +136,7 @@ body {
     font-size: 28px; }
   .header-home h1 img {
     overflow: hidden;
-    animation-duration: 1s;
-    animation-delay: 1s; }
+    transition: all .5s ease-in-out; }
   .row {
     width: auto;
     display: flex;
@@ -145,11 +144,12 @@ body {
     justify-content: center;
     justify-items: center; }
     .row h5 {
-      text-align: center; } }
+      text-align: center; }
+  .img-fluid {
+    width: -webkit-fill-available; } }
 
 .container:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1); }
+  filter: saturate(200%); }
 
 .titulo-h, .sedesHome-2 h4 {
   color: #070707; }

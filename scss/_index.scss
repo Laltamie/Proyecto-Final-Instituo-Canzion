@@ -139,13 +139,9 @@ body{
     }
     .header-home h1 img{
         overflow: hidden;
-        // animation-iteration-count: infinite;
-        // animation-timing-function: ease-in-out;
-        animation-duration: 1s;
-        animation-delay: 1s;
+        transition:all .5s ease-in-out;
 
     }
-
     .row {
         width: auto;
         display: flex;
@@ -156,12 +152,14 @@ body{
             text-align: center;
         }
     }
+    .img-fluid {
+        width: -webkit-fill-available;
+    }
 }
 
 // ------------------- HOVER ------------------------------------
 .container:hover img{
-    -webkit-transform: scale(1.1);
-    transform: scale(1);
+    filter: saturate(200%);
     
 }
 
