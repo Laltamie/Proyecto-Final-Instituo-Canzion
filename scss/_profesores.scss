@@ -8,7 +8,7 @@ body{
 .header-profes{
     display: flex;
     flex-direction: column;
-    background-image: url(../multimedia/img/header-profes.jpg) !important;
+    background-image: url(../multimedia/img/fondo5.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body{
 
 .main-profes{
     padding: 10px;
-    background-image: url(../multimedia/img/header-profes.jpg) !important;
+    background-image: url(../multimedia/img/fondo5.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,6 +109,11 @@ body{
     .main-profes section img{
         display: block;
         margin: 0px auto;
+    }
+    .main-profes-cont{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 

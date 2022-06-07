@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
 
-    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-image: url(../multimedia/img/fondo5.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body{
 }
 
 .grid-hisotira{
-    background-image: url(../multimedia/img/nosotros_all.jpg) !important;
+    background-image: url(../multimedia/img/fondo5.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: $tamañoH1;
-    color: #f0f8ff;
+    color: #080808;
 }
 // estilos main historia
 
@@ -42,7 +42,7 @@ body{
     min-height: .01%;
     overflow-x: auto;
     text-align: center;
-    color: #f0f8ff;
+    color: #080808;
 
     tbody{
         min-height: .01%;
@@ -50,7 +50,7 @@ body{
     }
     p{
         font-size: 10px;
-        color: #f0f8ff;
+        color: #080808;
     }
 }
 
@@ -58,7 +58,7 @@ table{
     border: none;
     width: 100%;
     td{
-        color: #f0f8ff;
+        color: #080808;
         font-size: 20px;
         line-height: 20px;
         padding: 0 20px;
